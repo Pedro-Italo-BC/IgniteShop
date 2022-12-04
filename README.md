@@ -1,34 +1,38 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## IgniteShop
 
-## Getting Started
 
-First, run the development server:
+![alt text](src/assets/readmeImgs/001.png)
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+This application is a challenge from the rocketSeat programming course. Where the application is an online store that sells shirts.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Esta aplicação é um desafio do curso de programação rocketSeat. Onde a aplicação é uma loja online que vende camisas.
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+![alt text](src/assets/readmeImgs/002.png)
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+In this application there will be some products. You can see product information in the footer, such as price and name. It is also possible to add the product to the cart by clicking on the button on the side.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+Nesta aplicação haverá alguns produtos. Pode se ver as informações do produto no rodapé, como por exemplo, o preço e o nome. É possivel também adicionar o produto ao carrinho clicando no botão ao lado.
 
-## Learn More
+![alt text](src/assets/readmeImgs/003.png)
 
-To learn more about Next.js, take a look at the following resources:
+By clicking on the product you will be redirected to a page where you will have more detailed information about the product.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Clicando no produto você será redirecionado a uma pagina onde terá informações mais detalhadas sobre o produto.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+![alt text](src/assets/readmeImgs/004.png) 
 
-## Deploy on Vercel
+To access the cart you must click on the top right button of the page, clicking on it will open the cart where all the selected products will be together with the price to be paid.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Para acessar o carrinho você deve clicar no botão superior direito da pagina, clicando nela irá abrir o carrinho onde estará todos os produtos selecionados junto com o preço a ser pago.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+![alt text](src/assets/readmeImgs/005.png) 
+
+Once you select the products that the user wants, it is possible to click on the "Finalizar Pedido" button, by doing this you will be redirected to the stripe page. There you can complete your purchase.
+
+Assim que selecionar os produtos que o usuário deseja, é possivel clicar no botão "Finalizar Pedido", fazendo isso você será redirecionado a pagina do stripe. Nela você pode fazer a finalização da sua compra.
+
+![alt text](src/assets/readmeImgs/006.png) 
+
+If the payment is successful, you will be redirected to the success page, where the chosen products will be presented along with a successful purchase message.
+
+Se o pagamento for bem sucedido, você será redirecionado para a pagina de sucesso, onde será apresentado os produtos escolhidos junto com uma mensagem de compra bem sucedida.
